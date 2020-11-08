@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Font.tres" type="DynamicFont" id=1]
+[ext_resource path="res://icon.png" type="Texture" id=2]
+
+[node name="SubObject" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -147.119
+margin_top = 42.643
+margin_right = 155.881
+margin_bottom = 98.643
+grow_horizontal = 2
+custom_fonts/font = ExtResource( 1 )
+text = "Here be dragons!"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 2 )
